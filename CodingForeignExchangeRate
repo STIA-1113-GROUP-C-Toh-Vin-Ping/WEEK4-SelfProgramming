@@ -1,0 +1,20 @@
+package selfProgramming;
+import java.util.Scanner;
+public class ForeignExchangeRate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double RM;
+		Scanner scanMe = new Scanner(System.in);
+		System.out.println("Please enter the number of RM that you want to change to USD ");
+		RM = scanMe.nextDouble();
+		double USD = RM / 4.166666667;
+		System.out.println("The USD you can cahnge is USD "+USD);
+		System.out.printf("The USD you can change is USD %.2f", USD);
+		
+		
+		
+		
+	}
+
+}
