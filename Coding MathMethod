@@ -1,0 +1,41 @@
+package selfProgramming;
+
+public class MathMethods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double x = 49;
+		double y = 64;
+		int z =3 ;
+		double a =3.142;
+		double b =4.523;
+				
+		
+		System.out.println("The maximum value is: " + (int)Math.max(x, y));
+		System.out.println("The minimum value is: " + (int)Math.min(x, y));
+		System.out.println();
+		
+		System.out.println("The square root of x value is: " + (int)Math.sqrt(x));
+		System.out.println("The square root of y value is: " + (int)Math.sqrt(y));
+		System.out.println();
+		
+		System.out.println("The value of 49 power 3 is: " + (int)Math.pow(x,z));
+		System.out.println("The value of 64 power 3 is: " + (int)Math.pow(y,z));
+		System.out.println();
+		
+		System.out.println("The exp of 49 is: " + Math.exp(x));
+		System.out.println("The exp of 64 is: " + Math.exp(y));
+		System.out.println();
+		
+		System.out.printf("The log of 49 is: %.2f%n" , Math.log(x));
+		System.out.printf("The log of 64 is: %.2f%n" , Math.log(y));
+		System.out.println();
+		
+		System.out.println("The round of 3.142 is: " + Math.round(x));
+		System.out.println("The round of 4.523 is: " + Math.round(y));
+		System.out.println();
+		
+		
+	}
+
+}
