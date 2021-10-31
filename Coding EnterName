@@ -1,0 +1,23 @@
+package myScanner;
+import java.util.Scanner;
+public class EnterYourName {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name;
+		String surname;
+		Scanner scanMe = new Scanner(System.in);
+		
+		System.out.println("Enter your name: ");
+		name = scanMe.nextLine();
+		System.out.println("Enter you surname: ");
+		surname = scanMe.nextLine();//nextLine can print out all the text
+		
+		System.out.println("My name is "+ name);
+		System.out.println("My surname is "+ surname);
+		
+		
+
+	}
+
+}
