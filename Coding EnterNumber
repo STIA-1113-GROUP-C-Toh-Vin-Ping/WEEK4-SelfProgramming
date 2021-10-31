@@ -1,0 +1,26 @@
+package myScanner;
+import java.util.Scanner;
+public class EnterNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scanMe = new Scanner(System.in);
+		
+		System.out.println("Enter an integer: ");
+		int integer = scanMe.nextInt();
+		System.out.println("Enter a double value: ");
+		double doublevalue = scanMe.nextDouble();
+		
+		double average = (integer+doublevalue)/2;
+		
+		System.out.println("Integer is: " + integer);
+		System.out.println("Double value is: " + doublevalue);
+		System.out.printf("The average is: %.2f%n" ,average);
+		
+		
+		System.out.println(average > 10);
+		
+	}
+
+}
